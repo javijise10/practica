@@ -8,12 +8,14 @@ public class Kiosko {
         Revista pcworld = new Revista("PC World", "Febrero/2021");
         PaqueteTabaco malboro  = new PaqueteTabaco("Winston");
         
-        RegistroVentas registro = new RegistroVentas();
+        RegistroDeVentas registro = new RegistroDeVentas();
         
         registro.anadirItemsEnVenta(coches);
         registro.anadirItemsEnVenta(pcworld);
         registro.anadirItemsEnVenta(malboro);
-        
+        registro.anadirItemsEnVenta(coches);
+        registro.anadirItemsEnVenta(coches);
+        registro.anadirItemsEnVenta(coches);
         registro.vender();
         
     }

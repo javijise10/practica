@@ -1,12 +1,12 @@
 package kioskointerfaces;
 
-public class RegistroVentas {
+public class RegistroDeVentas {
 
     private final int MAX_VENTAS;
     private Vendible[] ventas;
     private int numVentas; 
     
-    public RegistroVentas() {
+    public RegistroDeVentas() {
         
        MAX_VENTAS = 150; 
        ventas = new Vendible[MAX_VENTAS];
